@@ -8,10 +8,11 @@ Esse arquivos contem sugestões de desafios para melhorar a API contida nesse re
 
 Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaixo para alinhar o conhecimento sobre Java, REST, Spring, SOLID e o padrão MVC (Model View Controller):
 
-- [Patterns Java Orientação a Objetos](https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162)
-- [Programação Orientada a Objetos (POO)](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
-- [Polimorfismo (Java)](https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140#:~:text=Polimorfismo%20significa%20%22muitas%20formas%22%2C,diferentes%20ao%20receber%20uma%20mensagem)
-- [Herança + Interfaces (Java)](https://www.alura.com.br/conteudo/java-heranca-interfaces-polimorfismo?gclid=Cj0KCQjws-OEBhCkARIsAPhOkIYTKKe6f3i2zrECbjlY-KyQUQfT1E1mLSWcznn0gFyP7HKI0tKPfVwaAsVCEALw_wcB)
+* [X] [Patterns Java Orientação a Objetos](https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162)
+
+* [X] [Programação Orientada a Objetos (POO)](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
+* [X]  [Polimorfismo (Java)](https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140#:~:text=Polimorfismo%20significa%20%22muitas%20formas%22%2C,diferentes%20ao%20receber%20uma%20mensagem)
+* [X] [Herança + Interfaces (Java)](https://www.alura.com.br/conteudo/java-heranca-interfaces-polimorfismo?gclid=Cj0KCQjws-OEBhCkARIsAPhOkIYTKKe6f3i2zrECbjlY-KyQUQfT1E1mLSWcznn0gFyP7HKI0tKPfVwaAsVCEALw_wcB)
 - [REST](https://www.devmedia.com.br/rest-tutorial/28912)
 - [SPRING-BOOT, como começar?](https://www.zup.com.br/blog/spring-boot)
 - [SOLID](https://www.eduardopires.net.br/2013/04/orientacao-a-objeto-solid/#:~:text=SOLID%20%C3%A9%20um%20acr%C3%B4nimo%20dos,poderiam%20se%20encaixar%20nesta%20palavra)
@@ -21,7 +22,7 @@ Antes de você começar a melhorar essa API REST, recomendo ler os artigos abaix
 - [Evolução do MVC para REST](https://imasters.com.br/devsecops/a-evolucao-do-mvc-para-rest#:~:text=Em%20outras%20palavras%2C%20REST%20garante,sem%20acoplamento%20entre%20as%20partes.&text=Isso%20garante%20que%20podemos%20construir,quem%20vai%20usar%20estes%20dados)
 - [Conceitos Spring Data Jpa](https://ulyssesuchoa.medium.com/spring-data-jpa-445dbfbb70f0)
 
-* * *
+---
 
 ## 1️⃣ Primeira parte
 
@@ -55,7 +56,7 @@ Na primeira parte desse desafio, o objetivo vai ser de atualizar a estrutura do 
   - Atual: *POST + GET*
   - Esperado: *POST + GET + PUT + DELETE*
 
-* * *
+---
 
 ## 2️⃣ Segunda parte
 
@@ -92,7 +93,7 @@ Seguem algumas referências a respeito:
 
 - Atualize as anotações necessárias para validar o formato dos campos de `CPF`, `EMAIL` e `NOME` do DTO de requisição (UserForm).
 
-* * *
+---
 
 ## 3️⃣ Terceira parte
 
@@ -127,7 +128,7 @@ Seguem algumas referências:
 
 - Implementar os testes unitários da camada de `Service` e de `Controller` da API.
 
-* * *
+---
 
 ## 4️⃣ Quarta parte
 
@@ -145,7 +146,7 @@ Seguem algumas referências a respeito do Swagger, uma ferramenta permitindo voc
 
 - Automatizar a documentação dos endpoints da API usando `Swagger`.
 
-* * *
+---
 
 ## 5️⃣ Quinta Parte
 
@@ -156,7 +157,7 @@ Após ter implementado as 4 primeiras partes do desafio com um CRUD completo de 
 - Nível 3: [API de Vacinas](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/VACINA.md)
 - Nível 4: [API de Banco](https://github.com/GuillaumeFalourd/java-training-api/tree/main/APIs/BANCO.md)
 
-* * *
+---
 
 ## 💡 Bônus
 
